@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+p,
+span {
+	color: black;
+	display:flex;
+	padding: 2px 5px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333399;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	transition: all 0.25s ease;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	color:#333399;
+	background-color: white;
+}
+
+.bagis-buyuk{
+	font-size: 30px;
+	padding: 15px 13px;
+}
+
+.bagis-aciklama{
+	font-size: 18px;
+	padding: 12px 30px;
+}
+
+.bagis-eleman{
+	padding: 15px 40px;
+}
