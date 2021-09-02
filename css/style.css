@@ -15,7 +15,8 @@ span {
 .parca,
 .robot,
 .kumanda,
-.bagis{
+.bagis,
+.iletisim{
 	display: none;
 }
 
@@ -23,7 +24,8 @@ span {
 .parcaAktif,
 .robotAktif,
 .kumandaAktif,
-.bagisAktif{
+.bagisAktif,
+.iletisimAktif{
 	display: block;
 }
 

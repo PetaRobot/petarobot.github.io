@@ -17,30 +17,34 @@
 
 <body>
     <ul>
+        <li><a id="iletisim" onclick="menuIletisim()">İletişim</a></li>
         <li><a id="bagis" onclick="menuBagis()">Bağış</a></li>
         <li><a id="kumanda" onclick="menuKumanda()">Kumanda</a></li>
         <li><a id="robot" onclick="menuRobot()">Robot</a></li>
-        <li><a id="parca" onclick="menuParca()">Parçalar ve Maliyet</a></li>
+        <li><a id="parca" onclick="menuParca()">Malzemeler</a></li>
         <li><a id="index" onclick="menuAna()">Ana Sayfa</a></li>
         <li class="ana"><span>PETA ROBOT</span></li>
     </ul>
     <div class="anasayfa" id="anaSayfaDiv"><span>Ana Sayfa</span></div>
-    <div class="parca" id="parcaDiv"><span>Parça</span></div>
+    <div class="parca" id="parcaDiv"><span>Malzemeler</span></div>
     <div class="robot" id="robotDiv"><span>Robot</span></div>
     <div class="kumanda" id="kumandaDiv"><span>Kumanda</span></div>
     <div class="bagis" id="bagisDiv"><span>Bağış</span></div>
+    <div class="iletisim" id="iletisimDiv"><span>İletişim</span></div>
     <script>
         document.querySelector('#index').classList.add('deneme');
         document.querySelector('#parca').classList.remove('deneme');
         document.querySelector('#robot').classList.remove('deneme');
         document.querySelector('#kumanda').classList.remove('deneme');
         document.querySelector('#bagis').classList.remove('deneme');
+        document.querySelector('#iletisim').classList.remove('deneme');
 
         document.querySelector('#anaSayfaDiv').classList.add('anasayfaAktif');
         document.querySelector('#parcaDiv').classList.remove('parcaAktif');
         document.querySelector('#robotDiv').classList.remove('robotAktif');
         document.querySelector('#kumandaDiv').classList.remove('kumandaAktif');
         document.querySelector('#bagisDiv').classList.remove('bagisAktif');
+        document.querySelector('#iletisimDiv').classList.remove('iletisimAktif');
 
         function menuAna() {
             document.querySelector('#index').classList.add('deneme');
@@ -48,12 +52,14 @@
             document.querySelector('#robot').classList.remove('deneme');
             document.querySelector('#kumanda').classList.remove('deneme');
             document.querySelector('#bagis').classList.remove('deneme');
+            document.querySelector('#iletisim').classList.remove('deneme');
 
             document.querySelector('#anaSayfaDiv').classList.add('anasayfaAktif');
             document.querySelector('#parcaDiv').classList.remove('parcaAktif');
             document.querySelector('#robotDiv').classList.remove('robotAktif');
             document.querySelector('#kumandaDiv').classList.remove('kumandaAktif');
             document.querySelector('#bagisDiv').classList.remove('bagisAktif');
+            document.querySelector('#iletisimDiv').classList.remove('iletisimAktif');
         };
 
         function menuParca() {
@@ -62,12 +68,14 @@
             document.querySelector('#robot').classList.remove('deneme');
             document.querySelector('#kumanda').classList.remove('deneme');
             document.querySelector('#bagis').classList.remove('deneme');
+            document.querySelector('#iletisim').classList.remove('deneme');
 
             document.querySelector('#anaSayfaDiv').classList.remove('anasayfaAktif');
             document.querySelector('#parcaDiv').classList.add('parcaAktif');
             document.querySelector('#robotDiv').classList.remove('robotAktif');
             document.querySelector('#kumandaDiv').classList.remove('kumandaAktif');
             document.querySelector('#bagisDiv').classList.remove('bagisAktif');
+            document.querySelector('#iletisimDiv').classList.remove('iletisimAktif');
         };
 
         function menuRobot() {
@@ -76,12 +84,14 @@
             document.querySelector('#robot').classList.add('deneme');
             document.querySelector('#kumanda').classList.remove('deneme');
             document.querySelector('#bagis').classList.remove('deneme');
+            document.querySelector('#iletisim').classList.remove('deneme');
 
             document.querySelector('#anaSayfaDiv').classList.remove('anasayfaAktif');
             document.querySelector('#parcaDiv').classList.remove('parcaAktif');
             document.querySelector('#robotDiv').classList.add('robotAktif');
             document.querySelector('#kumandaDiv').classList.remove('kumandaAktif');
             document.querySelector('#bagisDiv').classList.remove('bagisAktif');
+            document.querySelector('#iletisimDiv').classList.remove('iletisimAktif');
         };
 
         function menuKumanda() {
@@ -90,12 +100,14 @@
             document.querySelector('#robot').classList.remove('deneme');
             document.querySelector('#kumanda').classList.add('deneme');
             document.querySelector('#bagis').classList.remove('deneme');
+            document.querySelector('#iletisim').classList.remove('deneme');
 
             document.querySelector('#anaSayfaDiv').classList.remove('anasayfaAktif');
             document.querySelector('#parcaDiv').classList.remove('parcaAktif');
             document.querySelector('#robotDiv').classList.remove('robotAktif');
             document.querySelector('#kumandaDiv').classList.add('kumandaAktif');
             document.querySelector('#bagisDiv').classList.remove('bagisAktif');
+            document.querySelector('#iletisimDiv').classList.remove('iletisimAktif');
         };
 
         function menuBagis() {
@@ -104,12 +116,30 @@
             document.querySelector('#robot').classList.remove('deneme');
             document.querySelector('#kumanda').classList.remove('deneme');
             document.querySelector('#bagis').classList.add('deneme');
+            document.querySelector('#iletisim').classList.remove('deneme');
 
             document.querySelector('#anaSayfaDiv').classList.remove('anasayfaAktif');
             document.querySelector('#parcaDiv').classList.remove('parcaAktif');
             document.querySelector('#robotDiv').classList.remove('robotAktif');
             document.querySelector('#kumandaDiv').classList.remove('kumandaAktif');
             document.querySelector('#bagisDiv').classList.add('bagisAktif');
+            document.querySelector('#iletisimDiv').classList.remove('iletisimAktif');
+        };
+
+        function menuIletisim() {
+            document.querySelector('#index').classList.remove('deneme');
+            document.querySelector('#parca').classList.remove('deneme');
+            document.querySelector('#robot').classList.remove('deneme');
+            document.querySelector('#kumanda').classList.remove('deneme');
+            document.querySelector('#bagis').classList.remove('deneme');
+            document.querySelector('#iletisim').classList.add('deneme');
+
+            document.querySelector('#anaSayfaDiv').classList.remove('anasayfaAktif');
+            document.querySelector('#parcaDiv').classList.remove('parcaAktif');
+            document.querySelector('#robotDiv').classList.remove('robotAktif');
+            document.querySelector('#kumandaDiv').classList.remove('kumandaAktif');
+            document.querySelector('#bagisDiv').classList.remove('bagisAktif');
+            document.querySelector('#iletisimDiv').classList.add('iletisimAktif');
         };
     </script>
 </body>
