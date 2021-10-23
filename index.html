@@ -2,11 +2,8 @@
 <html>
 
 <head>
-    <title>Peta Robot</title>
+    <title>Hurmanın Faydaları</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Peta robot ile ilgili tüm bilgiler. Mars robotunun bir değişiği.">
-    <meta name="keywords"
-        content="PetaRobot,Robot,Arduino,Peta,PCB,3D,3D Baskı,3B,3B Baskı,Pleksi Kesim, Pleksi,Robot Kol, Mars Aracı, Mars, Uzay, Elon Musk, SpaceX,Mars Robotu, Tesla">
     <meta name="author" content="Emir Ünalan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
@@ -16,132 +13,20 @@
 </head>
 
 <body>
-    <ul>
-        <li><a id="iletisim" onclick="menuIletisim()">İletişim</a></li>
-        <li><a id="bagis" onclick="menuBagis()">Bağış</a></li>
-        <li><a id="kumanda" onclick="menuKumanda()">Kumanda</a></li>
-        <li><a id="robot" onclick="menuRobot()">Robot</a></li>
-        <li><a id="parca" onclick="menuParca()">Malzemeler</a></li>
-        <li><a id="index" onclick="menuAna()">Ana Sayfa</a></li>
-        <li class="ana"><span>PETA ROBOT</span></li>
-    </ul>
-    <div class="anasayfa" id="anaSayfaDiv"><span>Ana Sayfa</span></div>
-    <div class="parca" id="parcaDiv"><span>Malzemeler</span></div>
-    <div class="robot" id="robotDiv"><span>Robot</span></div>
-    <div class="kumanda" id="kumandaDiv"><span>Kumanda</span></div>
-    <div class="bagis" id="bagisDiv"><span>Bağış</span></div>
-    <div class="iletisim" id="iletisimDiv"><span>İletişim</span></div>
-    <script>
-        document.querySelector('#index').classList.add('deneme');
-        document.querySelector('#parca').classList.remove('deneme');
-        document.querySelector('#robot').classList.remove('deneme');
-        document.querySelector('#kumanda').classList.remove('deneme');
-        document.querySelector('#bagis').classList.remove('deneme');
-        document.querySelector('#iletisim').classList.remove('deneme');
+    <p>Gelelim hurmanın faydalarına.</p>
+    <p>Öncelikle şunu söyliyeyim, bunu kimseye gösterme diye bir şey demeyeceğim çünkü zaten aslında herkesin haberi vardı.</p>
+    <p>Yani şunu diyorum;Tuna'nın söylediği kısımda, sebep yanlış AMA sonuç doğru.</p>
+    <br><br>
+    <p>Şimdi biraz da kuru fasulyenin sonuçlarından bahsedelim.</p>
+    <h3>RÜYALAR</h3>
+    <p>Rüyalarıma girmenin nedeni aslında seni sevmemdi, evet FAKAT haticeye değil neticeye bakalım :</p>
+    <p>1. Rüya : Ben araba kullanıyordum sen yanımda konuşuyordun o kadar :D <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwio2uW8heHzAhWL2aQKHUIcAq4QFnoECAQQAQ&url=https%3A%2F%2Fwww.diyadinnet.com%2Fruyada-1508-araba-surmek-gormek&usg=AOvVaw1g7NfTFgufI0iDDkKvdOtL">(Tıkla Bak)</a></p>
+    <p>2. Rüya : Koyu (Mecaz Anlam :P) bir sohbet vardı aramızda.</p>
+    <p>Annemin Rüyası XD : Sadece senin olduğunu ve iyi bir şey olduğunu söyledi o kadar.</p><br><br>
+    <p>Farkındayım çok değişik oldu, son bir şey daha söyleyip kapatıcağım. Allah için şu programını hafiflet derste uyuyacak kadar yorgunsan demek ki bir yerde sıkıntı var.</p>
+    <p>Şimdi seni aşağıya alalım : </p><br><br>
+    <img src="https://c.tenor.com/79BYFqAgBdMAAAAC/heart-shades-on.gif">
 
-        document.querySelector('#anaSayfaDiv').classList.add('anasayfaAktif');
-        document.querySelector('#parcaDiv').classList.remove('parcaAktif');
-        document.querySelector('#robotDiv').classList.remove('robotAktif');
-        document.querySelector('#kumandaDiv').classList.remove('kumandaAktif');
-        document.querySelector('#bagisDiv').classList.remove('bagisAktif');
-        document.querySelector('#iletisimDiv').classList.remove('iletisimAktif');
-
-        function menuAna() {
-            document.querySelector('#index').classList.add('deneme');
-            document.querySelector('#parca').classList.remove('deneme');
-            document.querySelector('#robot').classList.remove('deneme');
-            document.querySelector('#kumanda').classList.remove('deneme');
-            document.querySelector('#bagis').classList.remove('deneme');
-            document.querySelector('#iletisim').classList.remove('deneme');
-
-            document.querySelector('#anaSayfaDiv').classList.add('anasayfaAktif');
-            document.querySelector('#parcaDiv').classList.remove('parcaAktif');
-            document.querySelector('#robotDiv').classList.remove('robotAktif');
-            document.querySelector('#kumandaDiv').classList.remove('kumandaAktif');
-            document.querySelector('#bagisDiv').classList.remove('bagisAktif');
-            document.querySelector('#iletisimDiv').classList.remove('iletisimAktif');
-        };
-
-        function menuParca() {
-            document.querySelector('#index').classList.remove('deneme');
-            document.querySelector('#parca').classList.add('deneme');
-            document.querySelector('#robot').classList.remove('deneme');
-            document.querySelector('#kumanda').classList.remove('deneme');
-            document.querySelector('#bagis').classList.remove('deneme');
-            document.querySelector('#iletisim').classList.remove('deneme');
-
-            document.querySelector('#anaSayfaDiv').classList.remove('anasayfaAktif');
-            document.querySelector('#parcaDiv').classList.add('parcaAktif');
-            document.querySelector('#robotDiv').classList.remove('robotAktif');
-            document.querySelector('#kumandaDiv').classList.remove('kumandaAktif');
-            document.querySelector('#bagisDiv').classList.remove('bagisAktif');
-            document.querySelector('#iletisimDiv').classList.remove('iletisimAktif');
-        };
-
-        function menuRobot() {
-            document.querySelector('#index').classList.remove('deneme');
-            document.querySelector('#parca').classList.remove('deneme');
-            document.querySelector('#robot').classList.add('deneme');
-            document.querySelector('#kumanda').classList.remove('deneme');
-            document.querySelector('#bagis').classList.remove('deneme');
-            document.querySelector('#iletisim').classList.remove('deneme');
-
-            document.querySelector('#anaSayfaDiv').classList.remove('anasayfaAktif');
-            document.querySelector('#parcaDiv').classList.remove('parcaAktif');
-            document.querySelector('#robotDiv').classList.add('robotAktif');
-            document.querySelector('#kumandaDiv').classList.remove('kumandaAktif');
-            document.querySelector('#bagisDiv').classList.remove('bagisAktif');
-            document.querySelector('#iletisimDiv').classList.remove('iletisimAktif');
-        };
-
-        function menuKumanda() {
-            document.querySelector('#index').classList.remove('deneme');
-            document.querySelector('#parca').classList.remove('deneme');
-            document.querySelector('#robot').classList.remove('deneme');
-            document.querySelector('#kumanda').classList.add('deneme');
-            document.querySelector('#bagis').classList.remove('deneme');
-            document.querySelector('#iletisim').classList.remove('deneme');
-
-            document.querySelector('#anaSayfaDiv').classList.remove('anasayfaAktif');
-            document.querySelector('#parcaDiv').classList.remove('parcaAktif');
-            document.querySelector('#robotDiv').classList.remove('robotAktif');
-            document.querySelector('#kumandaDiv').classList.add('kumandaAktif');
-            document.querySelector('#bagisDiv').classList.remove('bagisAktif');
-            document.querySelector('#iletisimDiv').classList.remove('iletisimAktif');
-        };
-
-        function menuBagis() {
-            document.querySelector('#index').classList.remove('deneme');
-            document.querySelector('#parca').classList.remove('deneme');
-            document.querySelector('#robot').classList.remove('deneme');
-            document.querySelector('#kumanda').classList.remove('deneme');
-            document.querySelector('#bagis').classList.add('deneme');
-            document.querySelector('#iletisim').classList.remove('deneme');
-
-            document.querySelector('#anaSayfaDiv').classList.remove('anasayfaAktif');
-            document.querySelector('#parcaDiv').classList.remove('parcaAktif');
-            document.querySelector('#robotDiv').classList.remove('robotAktif');
-            document.querySelector('#kumandaDiv').classList.remove('kumandaAktif');
-            document.querySelector('#bagisDiv').classList.add('bagisAktif');
-            document.querySelector('#iletisimDiv').classList.remove('iletisimAktif');
-        };
-
-        function menuIletisim() {
-            document.querySelector('#index').classList.remove('deneme');
-            document.querySelector('#parca').classList.remove('deneme');
-            document.querySelector('#robot').classList.remove('deneme');
-            document.querySelector('#kumanda').classList.remove('deneme');
-            document.querySelector('#bagis').classList.remove('deneme');
-            document.querySelector('#iletisim').classList.add('deneme');
-
-            document.querySelector('#anaSayfaDiv').classList.remove('anasayfaAktif');
-            document.querySelector('#parcaDiv').classList.remove('parcaAktif');
-            document.querySelector('#robotDiv').classList.remove('robotAktif');
-            document.querySelector('#kumandaDiv').classList.remove('kumandaAktif');
-            document.querySelector('#bagisDiv').classList.remove('bagisAktif');
-            document.querySelector('#iletisimDiv').classList.add('iletisimAktif');
-        };
-    </script>
 </body>
 
 </html>
