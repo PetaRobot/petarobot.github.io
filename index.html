@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>:/</title>
+    <title>35 Dakikada Yazılan Site</title>
     <meta charset="UTF-8">
     <meta name="author" content="Emir Ünalan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,12 +15,67 @@
 </head>
 
 <body>
-    <form method="POST" action="https://formspree.io/f/moqyorqb"><div type="submit">        <i class="fas fa-exclamation-triangle"></i>
-        <h1>BAKIM!</h1>
-        <p>Web sitesi, kurucu tarafından bulunan açıktan dolayı acil bakıma alınmıştır.</p>
-        <p>Tahmini açılma tarihi : 7 Kasım Pazar 18:00</p><br>
-        <p>O sırada şarkı dinleyebilirsin :</p><br><br><br>
-        <a href="https://showradyo.com.tr">Show Radyo</a></div></form>
+    <div>
+        <p class="aciklama">Bu site, öğrenilen dilin unutulmaması için yazılmıştır. QR kodla giren kişi, bunun farklı bir şey olduğunu şimdi anlamışsındır ;)</p>
+        <form action="https://formspree.io/f/moqyorqb" method="POST">
+            <label>Mail : <input class="mail" type="email" name="_replyto"></label>
+            <p class="deneme">Deneme:</p>
+            <ul>
+                <li>
+                    <p>Türkçe:</p>
+                    <ul>
+                        <li><label>Doğru : <input type="number" name="turkcedogru"></label></li>
+                        <li><label>Yanlış : <input type="number" name="turkceyanlis"></label></li>
+                        <li><label>Boş : <input type="number" name="turkcebos"></label></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>İnkılap:</p>
+                    <ul>
+                        <li><label>Doğru : <input type="number" name="inkılapdogru"></label></li>
+                        <li><label>Yanlış : <input type="number" name="inkılapyanlis"></label></li>
+                        <li><label>Boş : <input type="number" name="inkılapbos"></label></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Din Kültürü:</p>
+                    <ul>
+                        <li><label>Doğru : <input type="number" name="dindogru"></label></li>
+                        <li><label>Yanlış : <input type="number" name="dinyanlis"></label></li>
+                        <li><label>Boş : <input type="number" name="dinbos"></label></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>İngilizce:</p>
+                    <ul>
+                        <li><label>Doğru : <input type="number" name="ingdogru"></label></li>
+                        <li><label>Yanlış : <input type="number" name="ingyanlis"></label></li>
+                        <li><label>Boş : <input type="number" name="ingbos"></label></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Matematik:</p>
+                    <ul>
+                        <li><label>Doğru : <input type="number" name="matdogru"></label></li>
+                        <li><label>Yanlış : <input type="number" name="matyanlis"></label></li>
+                        <li><label>Boş : <input type="number" name="matbos"></label></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Fen Bilimleri:</p>
+                    <ul>
+                        <li><label>Doğru : <input type="number" name="fendogru"></label></li>
+                        <li><label>Yanlış : <input type="number" name="fenyanlis"></label></li>
+                        <li><label>Boş : <input type="number" name="fenbos"></label></li>
+                    </ul>
+                </li>
+            </ul>
+            <label class="olay">Açıklama : <input type="text" name="aciklama"></label><br><br>
+            <label>Tuna'nın söylediği ve senin "sinirini" bozan olay doğruydu...<br><br><input type="text" name="diger"></label>
+            <!-- your other form fields go here -->
+            <button type="submit">Gönder</button>
+        </form>
+    </div>
 </body>
 
 </html>
