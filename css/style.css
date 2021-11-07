@@ -23,7 +23,7 @@ h1 {
 
 div {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 30px;
     align-items: center;
     justify-content: center;
 }
@@ -38,7 +38,6 @@ i {
 a {
     background-color: royalblue;
     padding: 25px 30px;
-    margin-top:30px;
     border-radius:3px;
     text-decoration:none;
     color: white;
