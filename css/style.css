@@ -35,6 +35,12 @@ i {
 
 }
 
+a {
+    background-color: royalblue;
+    padding: 10px 15px;
+    border-radius:3px;
+}
+
 @keyframes blink {
     0% {
         opacity: 0;
