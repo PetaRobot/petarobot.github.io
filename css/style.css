@@ -1,27 +1,50 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    background-color: rgb(27, 27, 27);
-    color:white;
+body {
+    background-color: rgb(240, 240, 240);
+    color: rgb(27, 27, 27);
 }
 
-p{
+p {
     font-size: 25px;
     padding: 10px 10px;
+    color: rgb(100, 100, 100);
 }
 
-h3{
+h1 {
     font-size: 50px;
-    padding-block:25px;
+    padding-block: 25px;
     text-align: center;
 }
 
-img{
+div {
     text-align: center;
-    padding-block: 25px;
-    padding-inline: 50% - 498px;
+    padding-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    color: rgb(238, 12, 65);
+    font-size: 144px;
+    animation: blink 2s linear infinite;
+
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
